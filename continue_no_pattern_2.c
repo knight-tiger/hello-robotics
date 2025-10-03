@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 int main()
-{ //printing a square
-    int side;
-    printf("Enter the side length of the square\n");
-    scanf("%d", &side);
+{ //printing a contiuous character pattern
+    int row;
+    printf("Enter the row size\n");
+    scanf("%d", &row);
   char ch='A';
 
-    for(int i = 0; i < side; i++)
+    for(int i = 0; i < row; i++)
     {
         for(int j = 0; j<=i; j++)
         { 
